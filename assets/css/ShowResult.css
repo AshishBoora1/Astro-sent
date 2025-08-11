@@ -1,0 +1,93 @@
+.showResult-container {
+  max-width: 1714px;
+  margin: 0 auto;
+}
+
+.m-0 {
+  margin: 21px 0 43px 0 !important;
+}
+
+.Card-Btn {
+  background-color: transparent;
+  border-radius: 0.75rem;
+  font-family: var(--font-SF-Pro);
+  line-height: 1.9rem;
+  letter-spacing: 0.3rem;
+  border: 2px solid #ffffff;
+  color: var(--clr-light);
+  text-transform: uppercase;
+  box-shadow: 0px 0px 12px 0px #00000026;
+}
+
+.py-33 {
+  padding: 2.063rem 1.625rem;
+}
+
+.Cards-bg,
+.Cards-bg3,
+.Cards-bg2 {
+  background: url(../images/png/card-image.png) no-repeat;
+  background-size: cover;
+  width: 33.375rem;
+  height: 40.563rem;
+  border-radius: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.313rem;
+  padding: 2.688rem 2.563rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.Cards-bg3 {
+  background: url(../images/png/mars.png) no-repeat;
+}
+.Cards-bg2 {
+  background: url(../images/png/mercury.png) no-repeat;
+}
+
+.gap-45 {
+  gap: 2.813rem;
+}
+
+
+.Cards-bg h5,
+.Cards-bg3 h5,
+.Cards-bg2 h5 {
+  font-family: var(--ff-Cormorant-Unicase);
+  font-weight: 500;
+  letter-spacing: 27%;
+  color: var(--clr-light);
+}
+.Cards-bg .h5,
+.Cards-bg3 .h5,
+.Cards-bg2 .h5 {
+  font-family: var(--ff-Cormorant-Unicase);
+  font-weight: 500;
+  color: var(--clr-light);
+  letter-spacing: 0%;
+}
+.Cards-bg h2,
+.Cards-bg3 h2,
+.Cards-bg2 h2 {
+  font-family: var(--ff-Cormorant-Unicase);
+  font-weight: 500;
+  margin-top: 2.75rem;
+  text-transform: uppercase;
+}
+.Cards-bg h6,
+.Cards-bg3 h6,
+.Cards-bg2 h6 {
+  font-family: var(--font-SF-Pro);
+  font-weight: 510;
+  text-transform: uppercase;
+  color: var(--clr-light);
+  margin-top: 1.125rem;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-42 {
+  width: 42%;
+}
