@@ -1,0 +1,64 @@
+.Perfume-info h5 {
+  font-family: var(--ff-Cormorant-Unicase);
+  font-weight: 500;
+  color: var(--clr-light);
+  font-weight: 500;
+  letter-spacing: 27%;
+  text-transform: uppercase;
+}
+
+.Perfume-info {
+  position: absolute;
+  left: 4.625rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.py {
+  padding: 2.5rem 0 3.75rem 0;
+}
+
+.Perfume-info h1 {
+  font-family: var(--ff-Cormorant-Unicase);
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--clr-light);
+  margin: 3rem 0 0 0;
+}
+.Perfume-info h2 {
+  font-family: var(--ff-Cormorant-Unicase);
+  font-weight: 500;
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  color: var(--clr-light);
+}
+.Perfume-info p {
+  font-family: var(--font-SF-Pro);
+  font-weight: 274;
+  line-height: 2.25rem;
+  color: var(--clr-light);
+}
+.Perfume-info h4 {
+  font-family: var(--font-SF-Pro);
+  font-weight: 274;
+  line-height: 100%;
+  color: var(--clr-light);
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin: 3.125rem 0;
+}
+.Perfume-info p span {
+  display: inline-block;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-36 {
+  width: 36%;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
