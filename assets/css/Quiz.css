@@ -1,0 +1,46 @@
+.Banner-Quiz {
+  background: url(../images/png/Banner-Quiz.png) no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 0 2.5rem;
+  width: 100%;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-0 div span {
+  font-weight: 500;
+  font-size: 1.563rem;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #e5e5e5;
+}
+
+.banner-quiz-parent button,
+.back-btn {
+  font-weight: 400;
+  font-size: 8.125rem;
+  line-height: 6.75rem;
+  letter-spacing: 0;
+  text-transform: capitalize;
+  margin-top: 3rem;
+  color: #fcf8eb;
+  background-color: transparent;
+  border: none;
+}
+
+.back-btn {
+  font-size: 2rem;
+  line-height: 118%;
+}
+
+.banner-quiz-parent button:nth-child(1) {
+  font-weight: 700;
+  margin-top: 0;
+}
+.banner-quiz-parent button:nth-child(1) svg {
+  display: flex;
+}

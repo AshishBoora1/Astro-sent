@@ -17,7 +17,6 @@
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   overflow-y: auto;
@@ -34,7 +33,7 @@ button {
 }
 
 .container {
-  max-width: 1464px;
+  max-width: 91.5rem;
   padding: 0 0.75rem;
   margin: 0 auto;
 }
@@ -47,6 +46,10 @@ button {
   --clr-light: #fff;
 }
 
+.nav-logo-h-vh {
+  height: 24vh;
+}
+
 .fs-sm {
   font-size: 1rem;
 }
@@ -55,7 +58,8 @@ h1,
 h2,
 h5,
 .form h3,
-.form h4 {
+.form h4,
+.banner-quiz-parent button , .back-btn{
   font-family: var(--font-Cormorant-Unicase) !important;
 }
 h1,
@@ -98,10 +102,6 @@ input::placeholder {
 }
 .fs-5xl {
   font-size: 3.875rem;
-}
-
-.pt-77 {
-  padding-top: 4.8rem;
 }
 
 .Btn-secondary {
@@ -206,15 +206,15 @@ h2 {
 .form h4 {
   font-weight: 500;
   line-height: 2.25rem;
-  border-bottom: 1px solid #fff;
+  border-bottom: 0.063rem solid #fff;
   padding-bottom: 0.9rem;
   display: inline;
 }
 
 .form h4 {
-  letter-spacing: 5px;
+  letter-spacing: 0.313rem;
   display: block;
-  border-bottom: 2px solid #fff;
+  border-bottom: 0.125rem solid #fff;
   padding-bottom: 2.6rem;
   margin: 0 6.4rem 0 6.4rem;
 }
@@ -235,7 +235,7 @@ input {
   font-family: var(--font-SF-Pro);
   font-size: 1.3rem;
   line-height: 1.9rem;
-  border: 1.02px solid #ffffffd6;
+  border: 0.064rem solid #ffffffd6;
   background: linear-gradient(
     94.51deg,
     rgba(255, 255, 255, 0.032) -24.59%,
@@ -289,13 +289,6 @@ form,
 .w-100 {
   width: 100%;
 }
-
-.imgs {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
 .postion-relative {
   position: relative;
 }
