@@ -14,8 +14,6 @@
   line-height: 1.9rem;
   letter-spacing: 0.3rem;
   border: 2px solid #ffffff;
-  color: var(--clr-light);
-  text-transform: uppercase;
   box-shadow: 0px 0px 12px 0px #00000026;
 }
 
@@ -49,38 +47,30 @@
   gap: 2.813rem;
 }
 
-
 .Cards-bg h5,
 .Cards-bg3 h5,
 .Cards-bg2 h5 {
-  font-family: var(--ff-Cormorant-Unicase);
   font-weight: 500;
-  letter-spacing: 27%;
-  color: var(--clr-light);
+  letter-spacing: 8px;
 }
+
 .Cards-bg .h5,
 .Cards-bg3 .h5,
 .Cards-bg2 .h5 {
-  font-family: var(--ff-Cormorant-Unicase);
-  font-weight: 500;
-  color: var(--clr-light);
-  letter-spacing: 0%;
+  letter-spacing: 0px;
 }
 .Cards-bg h2,
 .Cards-bg3 h2,
 .Cards-bg2 h2 {
-  font-family: var(--ff-Cormorant-Unicase);
   font-weight: 500;
   margin-top: 2.75rem;
-  text-transform: uppercase;
+  font-size: 4.5rem;
 }
 .Cards-bg h6,
 .Cards-bg3 h6,
 .Cards-bg2 h6 {
   font-family: var(--font-SF-Pro);
   font-weight: 510;
-  text-transform: uppercase;
-  color: var(--clr-light);
   margin-top: 1.125rem;
 }
 

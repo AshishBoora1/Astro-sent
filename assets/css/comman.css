@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap");
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
 @font-face {
   font-family: "SF-Pro";
   src: url(../fonts/sf-pro-display/SFPRODISPLAYREGULAR.OTF);
@@ -14,6 +22,7 @@
   flex-direction: column;
   overflow-y: auto;
   overflow-x: hidden;
+  padding-bottom: 1rem;
 }
 
 nav {
@@ -32,22 +41,38 @@ nav {
   --font-Cormorant-Unicase: "Cormorant Unicase", serif;
   /* font-color  */
   --clr-light: #fff;
-  /* font-size  */
-  /* --fs-sm: 1rem;
-  --fs-md: 1.12rem;
-  --fs-lg: 1.37rem;
-  --fs-xl: 1.5rem;
-  --fs-xxl: 1.75rem;
-  --fs-2xl: 2rem;
-  --fs-3xl: 2.6rem;
-  --fs-4xl: 2.8rem;
-  --fs-5xl: 3.8rem;
-  --fs-6xl: 6.5rem; */
 }
 
 .fs-sm {
   font-size: 1rem;
 }
+
+h1,
+h2,
+h5,
+.form h3,
+.form h4 {
+  font-family: var(--font-Cormorant-Unicase) !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.Primary-btn,
+.Btn-secondary,
+.Card-Btn {
+  text-transform: uppercase !important;
+  color: var(--clr-light);
+}
+
+p,
+input,
+input::placeholder {
+  color: var(--clr-light);
+}
+
 .fs-md {
   font-size: 1.12rem;
 }
@@ -70,18 +95,6 @@ nav {
 .fs-5xl {
   font-size: 3.875rem;
 }
-.fs-6xl {
-  font-size: 4rem !important;
-}
-.fs-7xl {
-  font-size: 4.5rem !important;
-}
-.fs-8xl {
-  font-size: 6rem;
-}
-.fs-9xl {
-  font-size: 6.5rem;
-}
 
 .pt-77 {
   padding-top: 4.8rem;
@@ -95,8 +108,6 @@ nav {
   line-height: 1.9rem;
   letter-spacing: 0.3rem;
   border: none;
-  color: var(--clr-light);
-  text-transform: uppercase;
 }
 
 .d-flex {
@@ -114,11 +125,13 @@ nav {
   justify-content: space-between;
 }
 
+.heading-parent-div h1 {
+  font-size: 6.5rem;
+}
+
 .heading-parent-div h1,
 h2 {
-  font-family: var(--font-Cormorant-Unicase);
-  text-transform: uppercase;
-  color: #fcf8eb;
+  color: #fcf8eb !important;
 }
 
 .heading-parent-div p {
@@ -126,7 +139,6 @@ h2 {
   font-weight: 200;
   width: 85%;
   margin: 1.8rem auto;
-  color: var(--clr-light);
   opacity: 75%;
 }
 
@@ -143,9 +155,9 @@ h2 {
   font-size: 1.12rem;
   line-height: 1.9rem;
   letter-spacing: 0.3rem;
-  text-transform: uppercase;
   display: flex;
   justify-content: center;
+  color: #000 !important;
   align-items: center;
   gap: 0.25rem;
 }
@@ -188,17 +200,14 @@ h2 {
 
 .form h3,
 .form h4 {
-  font-family: var(--ff-Cormorant-Garamond);
   font-weight: 500;
   line-height: 2.25rem;
   border-bottom: 1px solid #fff;
-  color: var(--clr-light);
   padding-bottom: 0.9rem;
   display: inline;
 }
 
 .form h4 {
-  text-transform: uppercase;
   letter-spacing: 5px;
   display: block;
   border-bottom: 2px solid #fff;
@@ -209,10 +218,9 @@ h2 {
 .form p {
   font-family: var(--font-SF-Pro);
   font-weight: 510;
-  font-size: var(--fs-2xl);
+  font-size: 2rem;
   line-height: 2.25rem;
   margin-top: 3.5rem;
-  color: var(--clr-light);
 }
 
 .form p span {
@@ -223,7 +231,6 @@ input {
   font-family: var(--font-SF-Pro);
   font-size: 1.3rem;
   line-height: 1.9rem;
-  color: var(--clr-light);
   border: 1.02px solid #ffffffd6;
   background: linear-gradient(
     94.51deg,
@@ -240,7 +247,6 @@ input::placeholder {
   font-family: var(--font-SF-Pro);
   font-size: 1.3rem;
   line-height: 1.9rem;
-  color: var(--clr-light);
 }
 
 .w-50 {
