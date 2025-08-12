@@ -1,0 +1,13 @@
+@media (max-width: 1440px) {
+  nav {
+    padding: 0 2.4rem;
+  }
+
+  .py-xl-33 {
+    padding: 1.5rem;
+  }
+  .container-bg {
+    padding-bottom: 2rem;
+  }
+  
+}

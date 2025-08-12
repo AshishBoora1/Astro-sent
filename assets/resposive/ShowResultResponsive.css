@@ -1,0 +1,40 @@
+@media (max-width: 1600px) {
+  .result-card h2 {
+    margin-top: 1.2rem;
+    font-size: 3.8rem;
+  }
+
+}
+@media (max-width: 1440px) {
+  .w-xl-100 {
+    width: 100%;
+  }
+
+  .result-card {
+    height: 29.563rem;
+    padding: 2.688rem 1.563rem;
+  }
+
+  .result-card h2 {
+    margin-top: 1.2rem;
+    font-size: 3.2rem;
+  }
+  .result-card h5 {
+    font-size: 1.2rem;
+  }
+
+  .w-xl-40 {
+    width: 40%;
+  }
+
+  .result-card h2,
+  h5,
+  h6 {
+    position: relative;
+    z-index: 5;
+  }
+
+  .mt-xl-2 {
+    margin-top: 2rem;
+  }
+}

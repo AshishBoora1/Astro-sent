@@ -1,7 +1,7 @@
 .showResult-container {
   max-width: 107.125rem;
   margin: 0 auto;
-  padding: 0 0.75rem;
+  padding: 0 2rem;
 }
 
 .my-1rem-2rem {
@@ -81,6 +81,7 @@
   font-weight: 500;
   margin-top: 2.75rem;
   font-size: 4.5rem;
+  word-wrap: break-word;
 }
 .result-card h6 {
   font-family: var(--font-SF-Pro);
