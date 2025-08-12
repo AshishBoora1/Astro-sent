@@ -30,6 +30,7 @@
   color: #fcf8eb;
   background-color: transparent;
   border: none;
+  display: block;
 }
 
 .back-btn {

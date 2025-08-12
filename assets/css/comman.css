@@ -164,6 +164,7 @@ h2 {
   color: #000 !important;
   align-items: center;
   gap: 0.25rem;
+  border: none;
 }
 
 .grow-1 {
@@ -288,6 +289,9 @@ form,
 
 .w-100 {
   width: 100%;
+}
+.w-65 {
+  width: 65%;
 }
 .postion-relative {
   position: relative;

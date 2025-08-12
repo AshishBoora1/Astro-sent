@@ -23,8 +23,8 @@
     font-size: 1.2rem;
   }
 
-  .w-xl-40 {
-    width: 40%;
+  .w-xl-33 {
+    width: 33%;
   }
 
   .result-card h2,
@@ -33,7 +33,6 @@
     position: relative;
     z-index: 5;
   }
-
   .mt-xl-2 {
     margin-top: 2rem;
   }
