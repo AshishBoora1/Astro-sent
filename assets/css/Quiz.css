@@ -30,12 +30,19 @@
   color: #fcf8eb;
   background-color: transparent;
   border: none;
+}
+
+.banner-quiz-parent button {
   display: block;
 }
 
 .back-btn {
   font-size: 2rem;
   line-height: 118%;
+}
+
+.back-btn svg {
+  width: 1.75rem;
 }
 
 .banner-quiz-parent button:nth-child(1) {
