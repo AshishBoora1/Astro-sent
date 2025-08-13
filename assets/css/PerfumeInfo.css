@@ -1,7 +1,7 @@
 .showResult-container {
   max-width: 107.125rem;
   margin: 0 auto;
-  padding: 0 0.75rem;
+  padding: 0 5rem;
 }
 
 .Perfume-info {
@@ -70,6 +70,12 @@
 }
 .Perfume-info p span {
   display: inline-block;
+}
+
+.Primary-btn {
+  font-size: 1.37rem;
+  margin-top: 1.8rem;
+  padding: 2.063rem 1.625rem;
 }
 
 .Perfume-info svg {

@@ -1,6 +1,6 @@
 const buttons = document.querySelectorAll(".banner-quiz-parent button");
 const arrows = document.querySelectorAll(".banner-quiz-parent button svg");
-const images = document.querySelectorAll(".w-30 img");
+const images = document.querySelectorAll(".w-20 img");
 
 buttons.forEach((btn, index) => {
   btn.addEventListener("mouseenter", () => {

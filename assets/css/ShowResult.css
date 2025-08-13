@@ -1,7 +1,7 @@
 .showResult-container {
   max-width: 107.125rem;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 5rem;
 }
 
 .my-1rem-2rem {
@@ -13,13 +13,21 @@
   border-radius: 0.75rem;
   font-family: var(--font-SF-Pro);
   line-height: 1.9rem;
+  font-size: 1.37rem;
   letter-spacing: 0.3rem;
   border: 0.125rem solid #ffffff;
   box-shadow: 0rem 0rem 0.75rem 0rem #00000026;
+  padding: 2.063rem 1.625rem;
 }
 
-.py-33 {
+.Primary-btn {
+  margin-top: 1.8rem;
+  font-size: 1.37rem;
   padding: 2.063rem 1.625rem;
+}
+
+.heading-parent-div div button {
+  font-size: 1.12rem;
 }
 
 .result-card {
@@ -35,14 +43,38 @@
 
 .result-card img:nth-child(1) {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: -28rem;
+  width: 150%;
+  right: -16rem;
   z-index: 3;
+  object-fit: contain;
+  height: 150%;
 }
-.result-card img:nth-child(2) {
+
+.planet-img1,
+.planet-img2,
+.planet-img3 {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  object-fit: contain;
+  width: 250%;
+  height: 250%;
+}
+
+.planet-img1 {
+  bottom: -30rem;
+  right: -37rem;
+  transform: rotateZ(-72deg);
+}
+
+.planet-img2 {
+  bottom: -42rem;
+  right: -32rem;
+}
+.planet-img3 {
+  bottom: -41rem;
+  width: 225%;
+  height: 235%;
+  right: -32rem;
 }
 
 .result-card .ellipse-image1,
@@ -50,23 +82,30 @@
 .result-card .ellipse-image3 {
   position: absolute;
   z-index: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .result-card .ellipse-image1 {
-  bottom: -8rem;
+  bottom: -13rem;
   right: 0;
 }
 
 .result-card .ellipse-image2 {
-  bottom: -25rem;
-  right: -19rem;
+  bottom: -27rem;
+  right: -18rem;
+  height: 150%;
+  width: 150%;
 }
 .result-card .ellipse-image3 {
-  bottom: 0rem;
-  right: -20rem;
+  bottom: -25rem;
+  right: -30rem;
+  height: 200%;
+  width: 200%;
 }
 
-.gap-45 {
+.gap-2 {
   gap: 2rem;
 }
 
