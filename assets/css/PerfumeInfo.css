@@ -16,21 +16,26 @@
 }
 
 .Perfume-info-planet {
-  right: 0;
-  bottom: 0;
+  right: -56rem;
+  bottom: 5rem;
+  width: 134%;
+  transform: rotateZ(-72deg);
   z-index: 2;
 }
 
 .Perfume-info-ellips {
-  right: -38rem;
-  bottom: -40rem;
+  right: -40rem;
+  bottom: -48rem;
   z-index: 1;
 }
 
 .align-end img {
   position: relative;
   z-index: 3;
+  width: 125%;
+  height: 100%;
   aspect-ratio: 1;
+  transform: translate(1rem, 23rem);
 }
 
 .Perfume-info h5 {
